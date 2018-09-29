@@ -2,8 +2,8 @@
 def bemvindo():
 	print("Bem Vindo a Agenda")
 	print("Selecione uma Opcao")
-	# print("1  Adicionar um novo contato")
-	# print("2  Listar os contatos da agenda")
+	print("1  Adicionar um novo contato")
+	print("2  Listar os contatos da agenda")
 
 #Funcoes do processo
 def adicionar():
@@ -21,6 +21,7 @@ def adicionar():
 	
 def listar():
 	print("Lista de Contatos")
+<<<<<<< HEAD
 	 agenda = open("agendatelefonica.csv")
 	 numero = 0
 	 while numero < 25:
@@ -28,6 +29,15 @@ def listar():
 	 	numero = numero + 1
 	print("Listado correctamente")	
 	agenda.close()
+=======
+	agenda = open("agendatelefonica.csv")
+	numero = 0
+	while numero < 25:
+		print (agenda.readline())
+	# 	numero = numero + 1
+	# print("Listado correctamente")	
+	# agenda.close()
+>>>>>>> f54827b057455b767b8276e60b3aa6dcf90b6104
 
 def falha():
 	print("Opcao Incorreta")
