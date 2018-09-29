@@ -9,7 +9,7 @@ print("Selecionou a ", opcao)
 
 
 #Estrutura de controle
-if opcao == 1:
+if opcao == 2:
 	funcoes.adicionar()
 elif opcao == 2:
 	funcoes.listar()
